@@ -3,3 +3,11 @@ Author: Nicholas Fazzolari
 
 This file is the main style sheet for my portfolio site.
 */
+
+@use 'colors' as c;
+@use 'font_stack';
+
+
+.test {
+    background-color: c.$medium_grey;
+}
