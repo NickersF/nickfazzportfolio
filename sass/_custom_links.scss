@@ -1,0 +1,32 @@
+/*
+Author: Nicholas Fazzolari
+
+This file contains custom link styles for my portfolio site.
+*/
+
+@use 'colors' as c;
+
+.navlink-custom a {
+    color: c.$dark_grey;
+    font-size: 2.5rem;
+    text-decoration: none;
+    border-bottom: 0.25rem solid transparent;
+  }
+  
+  .navlink-custom a:visited {
+    color: c.$dark_grey;
+    font-size: 2.5rem;
+    text-decoration: none;
+    border-bottom: 0.25rem solid transparent;
+  }
+  
+  .navlink-custom a:hover {
+    color: c.$dark_grey;
+    font-size: 2.5rem;
+    text-decoration: none;
+    border-bottom: 0.25rem solid c.$brand_green;
+  }
+
+  .navlink-custom-padder {
+    padding-left: 1.5rem;
+  }

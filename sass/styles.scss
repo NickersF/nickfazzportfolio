@@ -6,6 +6,7 @@ This file is the main style sheet for my portfolio site.
 
 @use 'colors' as c;
 @use 'font_stack';
+@use 'custom_links';
 
 body {
     color: c.$dark_grey;
