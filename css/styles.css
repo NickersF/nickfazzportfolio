@@ -1,13 +1,29 @@
-/*
-Author: Nicholas Fazzolari
+/* _colors.scss implements global color variables */
+/* _container_styles.scss implements general layout component styles */
+body {
+  color: #262626;
+  background-color: #e0e0e0;
+  height: 100vh !important;
+}
 
-This file contains the color variables for my personal portfolio site.
-*/
-/*
-Author: Nichoals Fazzolari
+.section-container {
+  background-color: #f5f5f5;
+}
 
-This file contains the font stack configuration for my portfolio site.
-*/
+.section-heading-container {
+  background-color: #262626;
+  padding: 1em;
+}
+
+.section-heading-text {
+  color: #00c853;
+  border-left: solid 0.5rem;
+  border-left-color: #00c853;
+  padding-left: 0.5rem;
+  margin: 0;
+}
+
+/* _font_stack.scss implements global font styles */
 .soleil-light {
   font-family: soleil, sans-serif;
   font-weight: 300;
@@ -30,25 +46,19 @@ This file contains the font stack configuration for my portfolio site.
   font-family: "Shrikhand", cursive;
 }
 
-/*
-Author: Nicholas Fazzolari
-
-This file contains custom link styles for my portfolio site.
-*/
+/* _custom_links.scss implements custom link styles */
 .navlink-custom a {
   color: #262626;
   font-size: 2.5rem;
   text-decoration: none;
   border-bottom: 0.25rem solid transparent;
 }
-
 .navlink-custom a:visited {
   color: #262626;
   font-size: 2.5rem;
   text-decoration: none;
   border-bottom: 0.25rem solid transparent;
 }
-
 .navlink-custom a:hover {
   color: #262626;
   font-size: 2.5rem;
@@ -65,27 +75,8 @@ Author: Nicholas Fazzolari
 
 This file is the main style sheet for my portfolio site.
 */
-body {
-  color: #262626;
-  background-color: #e0e0e0;
-  height: 100vh !important;
-}
-
-.section-container {
-  background-color: #f5f5f5;
-}
-
-.section-heading-container {
-  background-color: #262626;
-  padding: 1em;
-}
-
-.section-heading-text {
-  color: #00c853;
-  border-left: solid 0.5rem;
-  border-left-color: #00c853;
-  padding-left: 0.5rem;
-  margin: 0;
+.mercy {
+  color: purple;
 }
 
 /*# sourceMappingURL=styles.css.map */
