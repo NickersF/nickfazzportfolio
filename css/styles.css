@@ -23,6 +23,14 @@ body {
   margin: 0;
 }
 
+.topic-heading-text {
+  color: #262626;
+  border-left: solid 0.5rem;
+  border-left-color: #00c853;
+  padding-left: 0.5rem;
+  margin: 0;
+}
+
 /* _font_stack.scss implements global font styles */
 .soleil-light {
   font-family: soleil, sans-serif;
@@ -67,7 +75,8 @@ body {
 }
 
 .navlink-custom-padder {
-  padding-left: 1.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 /*
