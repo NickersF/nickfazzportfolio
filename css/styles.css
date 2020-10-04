@@ -74,6 +74,33 @@ body {
   border-bottom: 0.25rem solid #00c853;
 }
 
+.download-button a {
+  color: #00c853;
+  background-color: #262626;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+.download-button a:visited {
+  color: #00c853;
+  background-color: #262626;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+.download-button a:hover {
+  color: #e0e0e0;
+  background-color: #262626;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.rempadder-1 {
+  padding: 1rem;
+}
+
+.remmargin-1 {
+  margin: 1rem;
+}
+
 .navlink-custom-padder {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
