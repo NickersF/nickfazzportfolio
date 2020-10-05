@@ -93,12 +93,21 @@ body {
   text-decoration: none;
 }
 
-.rempadder-1 {
-  padding: 1rem;
+.email-link-custom-style a {
+  color: #00c853;
+  text-decoration: underline;
+}
+.email-link-custom-style a:visited {
+  color: #00c853;
+  text-decoration: none;
+}
+.email-link-custom-style a:hover {
+  color: #262626;
+  text-decoration: none;
 }
 
-.remmargin-1 {
-  margin: 1rem;
+.rempadder-1 {
+  padding: 1rem;
 }
 
 .navlink-custom-padder {

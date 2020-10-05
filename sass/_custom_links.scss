@@ -49,12 +49,25 @@
 
 }
 
-.rempadder-1 {
-  padding: 1rem;
+.email-link-custom-style {
+  a {
+    color: c.$brand_green;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: c.$brand_green;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: c.$dark_grey;
+    text-decoration: none;
+  }
 }
 
-.remmargin-1 {
-  margin: 1rem;
+.rempadder-1 {
+  padding: 1rem;
 }
 
 .navlink-custom-padder {
